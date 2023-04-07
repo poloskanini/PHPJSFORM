@@ -15,33 +15,33 @@
   <div class="container d-flex flex-column min-vh-100 justify-content-center align-items-center">
     <h1>FORMULAIRE avec validation JS (Bootstrap)</h1>
 
-    <form action="contact.php" method="POST" class="row g-3 needs-validation" id="lessonForm">
+    <form action="contact.php" method="POST" class="row g-3 needs-validation" id="contactForm">
         <div class="col-md-6">
             <label for="firstname" class="form-label">Prénom</label>
             <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Entrez votre prénom">
             <div class="invalid-feedback">
-                Veuillez saisir votre prénom.
+                Veuillez saisir un prénom valide.
             </div>
         </div>
         <div class="col-md-6">
             <label for="lastname" class="form-label">Nom</label>
             <input type="text" class="form-control" name="lastName" id="lastName">
             <div class="invalid-feedback">
-                Veuillez saisir votre nom.
+                Veuillez saisir un nom valide.
             </div>
         </div>
         <div class="col-md-6">
             <label for="email" class="form-label">E-mail</label>
             <input type="email" class="form-control" name="email" id="email">
             <div class="invalid-feedback">
-                Veuillez saisir votre e-mail.
+                Veuillez saisir un e-mail valide.
             </div>
         </div>
         <div class="col-md-6">
             <label for="phoneNumber" class="form-label">Téléphone</label>
             <input type="tel" class="form-control" name="phoneNumber" id="phoneNumber">
             <div class="invalid-feedback">
-                Veuillez saisir votre numéro de téléphone.
+                Veuillez saisir un numéro de téléphone valide.
             </div>
         </div>
         <div class="col-md-6">
@@ -68,10 +68,11 @@
             <label for="postcode" class="form-label">Code postal</label>
             <input type="text" class="form-control" name="postCode" id="postCode">
             <div class="invalid-feedback">
-                Veuillez saisir votre code postal.
+                Veuillez saisir un code postal valide.
             </div>
         </div>
         <div class="col-12">
+            <small><a href="#">Lire les C.G.U</a></small>
             <div class="mb-3 form-check">
                 <label class="form-check-label" for="conditions">J'accepte les conditions</label>
                 <input type="checkbox" class="form-check-input" id="conditions" name="conditions">
@@ -83,8 +84,9 @@
         <button type="submit" name="submit" value="submit" class="btn btn-primary w-25">Valider</button>
     </form>
 </div>
+    
 
-
+<!-- My JS -->
 <script src="scriptbis.js"></script>
 
 </body>

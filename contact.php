@@ -5,11 +5,11 @@ require 'vendor/autoload.php';
 use Mailjet\Client;
 use \Mailjet\Resources;
 
-// Clés publique et privée
+// Clés publique et privée de MAILJET
 define('MJ_APIKEY_PUBLIC', '9643dbf3120f04b54c7c81bb32565df8');
 define('MJ_APIKEY_PRIVATE', 'c38f88aa336083980bfcfd690372ba28');
 
-// Instancie un nouveau mail
+// Instancier un nouveau mail
 $mj = new Client(MJ_APIKEY_PUBLIC, MJ_APIKEY_PRIVATE, true,['version' => 'v3.1']);
 
 if(!empty($_POST['firstName'])
@@ -50,6 +50,11 @@ if(!empty($_POST['firstName'])
                     'day' => "Tuesday",
                     'surname' => $surname,
                     'lastName' => $lastName,
+                    'email' => $email,
+                    'phoneNumber' => $phoneNumber,
+                    'address' => $address,
+                    'postCode' => $postCode,
+                    'city' => $city,
                     'content' => 
                       "Bonjour $surname ".$lastName." ! <br><br>
                       Votre mail est $email, et votre numéro de téléphone est le ".$phoneNumber.".<br>
@@ -64,9 +69,13 @@ if(!empty($_POST['firstName'])
       $response->success();
       
       echo '<h2 style="text-align: center;">Envoyé avec succès !</h2>';
-    } else {
-      header('Location:index.php');
-      die();
-    }
+
+      header("refresh:2;url=index.php" );
+
+
+      } else {
+        header('Location:index.php');
+        die();
+      }
   }
 ?>

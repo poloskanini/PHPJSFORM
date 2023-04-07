@@ -3,7 +3,7 @@
   'use strict'
 
   // Déclaration du formulaire
-  let form = document.getElementById('lessonForm');
+  let form = document.getElementById('contactForm');
 
   // Ecoute de l'action submit, et lancement de la fonction
   form.addEventListener('submit', function(event) {
@@ -36,8 +36,7 @@
 // Validation d'un champ required
 function validateRequired(input) {
 return !(input.value == null || input.value == "");
-}
-/* Fonction qui retourne TRUE ou FALSE. (booléen) => Si l'input n'est pas null ou vide, alors retourne TRUE.
+} /* Fonction qui retourne TRUE ou FALSE. (booléen) => Si l'input n'est pas null ou vide, alors retourne TRUE.
 Traduction : Si (la valeur de l'input est null) OU que (la valeur de l'input est vide), et qu'on a l'inverse de ça ! (donc que l'input n'est pas null ou vide), alors ça retourne TRUE. Sinon ça retourne FALSE. */
 
 // Validation du nombre de caractères : MIN & MAX
