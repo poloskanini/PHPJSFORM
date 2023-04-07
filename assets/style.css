@@ -22,3 +22,7 @@ h1 {
   width: 50%;
   text-align: center;
 }
+
+.logo img {
+  width: 150px;
+}

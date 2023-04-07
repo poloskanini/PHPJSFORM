@@ -15,8 +15,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <div class="container d-flex min-vh-100 justify-content-center align-items-center">
+
+    <nav class="nav d-flex justify-content-around align-items-center p-2 my-4">
+        <div class="logo">
+            <img src="/assets/images/logo.png" alt="logo">
+        </div>
+        <ul class="nav-list d-flex list-unstyled d-none d-lg-flex">
+            <li class="nav-item1 px-4">Platform</li>
+            <li class="nav-item2 px-4">Resources</li>
+            <li class="nav-item3 px-4">Solutions</li>
+            <li class="nav-item4 px-4">Pricing</li>
+        </ul>
+        <div class="sign-up">SIGN UP</div>
+    </nav>
+    <div class="container d-flex justify-content-center align-items-center mt-5">
 
         <div class="left d-none d-lg-block">
             <img class="img-fluid" src="/assets/images/left.png" alt="left">
@@ -30,55 +42,55 @@
                     <label for="firstname" class="form-label">Prénom</label>
                     <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Entrez votre prénom">
                     <div class="invalid-feedback">
-                        Veuillez saisir votre prénom.
+                        Veuillez saisir un prénom valide.
                     </div>
                 </div>
                 <div class="col-md-6">
                     <label for="lastname" class="form-label">Nom</label>
-                    <input type="text" class="form-control" name="lastName" id="lastName">
+                    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Entrez votre nom">
                     <div class="invalid-feedback">
-                        Veuillez saisir votre nom.
+                        Veuillez saisir un nom valide.
                     </div>
                 </div>
                 <div class="col-md-6">
                     <label for="email" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" name="email" id="email">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Entrez votre e-mail">
                     <div class="invalid-feedback">
-                        Veuillez saisir votre e-mail.
+                        Veuillez saisir un e-mail valide.
                     </div>
                 </div>
                 <div class="col-md-6">
                     <label for="phoneNumber" class="form-label">Téléphone</label>
-                    <input type="tel" class="form-control" name="phoneNumber" id="phoneNumber">
+                    <input type="tel" class="form-control" name="phoneNumber" id="phoneNumber" placeholder="Entrez votre téléphone">
                     <div class="invalid-feedback">
-                        Veuillez saisir votre numéro de téléphone.
+                        Veuillez saisir un numéro de téléphone valide.
                     </div>
                 </div>
                 <div class="col-md-6">
                     <label for="address" class="form-label">Adresse</label>
-                    <input type="text" class="form-control" name="address" id="address">
+                    <input type="text" class="form-control" name="address" id="address" placeholder="Entrez votre adresse">
                     <div class="invalid-feedback">
-                        Veuillez saisir votre adresse.
+                        Veuillez saisir une adresse valide.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="postcode" class="form-label">Code postal</label>
+                    <input type="text" class="form-control" name="postCode" id="postCode" placeholder="Entrez votre code postal">
+                    <div class="invalid-feedback">
+                        Veuillez saisir un code postal valide.
                     </div>
                 </div>
                 <div class="col-md-6">
                     <label for="city" class="form-label">Ville</label>
                     <select class="form-select" name="city" id="city">
-                        <option selected disabled value="">Choose a city ...</option>
+                        <option selected disabled value="">Choisir une ville</option>
                         <option>Paris</option>
                         <option>Lyon</option>
                         <option>Marseille</option>
                         <option>Lille</option>
                     </select>
                     <div class="invalid-feedback">
-                        Veuillez choisir une ville.
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <label for="postcode" class="form-label">Code postal</label>
-                    <input type="text" class="form-control" name="postCode" id="postCode">
-                    <div class="invalid-feedback">
-                        Veuillez saisir votre code postal.
+                        Veuillez choisir une ville valide.
                     </div>
                 </div>
                 <div class="col-12 d-flex flex-column align-items-center">
