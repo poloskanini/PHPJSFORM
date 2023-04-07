@@ -9,6 +9,7 @@
 
 body {
   background-color: #F5F3EE;
+  position: relative;
 }
 
 input:not([type='checkbox']),
@@ -25,6 +26,12 @@ h1 {
   font-family: 'Paytone One', sans-serif;
   text-align: center;
   line-height: 0.9;
+}
+
+.middle-subtitle {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-family: Arial;
+  text-align: center;
 }
 
 .logo img {
@@ -64,4 +71,48 @@ h1 {
 
 form {
   margin: 2rem;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+}
+
+.left img,
+.right img {
+  width: 12rem;
+}
+
+footer {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+footer ul {
+  margin: 0;
+}
+
+.footer-item {
+  padding: 0 3rem;
+}
+
+.footer-item-middle {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.footer img {
+  max-width: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .left img,
+  .right img {
+  width: 100%;
+  }
+
+  .footer img {
+    max-width: 3rem;
+  }
+
 }

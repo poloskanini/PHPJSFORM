@@ -30,14 +30,15 @@
         <div class="sign-up">SIGN UP</div>
     </nav>
 
-    <div class="container d-flex justify-content-center align-items-center mt-5">
+    <div class="container d-md-flex justify-content-center align-items-center mt-5">
 
-        <div class="left d-none d-lg-block">
+        <div class="left">
             <img class="img-fluid" src="/assets/images/left.png" alt="left">
         </div>
 
         <div class="middle">
-            <h1 class="m-3 mb-5">Increase sales with email marketing</h1>
+            <h1 class="middle-title m-3 mb-5">Increase sales with email marketing</h1>
+            <p class="middle-subtitle m-3 mb-5">Automate email marketing campaigns and make them look awesome for your clients.</p>
 
             <form action="contact.php" method="POST" class="row g-3 needs-validation" id="lessonForm">
                 <div class="col-md-6">
@@ -95,7 +96,7 @@
                         Veuillez choisir une ville valide.
                     </div>
                 </div>
-                <div class="col-12 d-flex flex-column align-items-center">
+                <div class="col-md-6 d-flex justify-content-center align-items-end">
                     <div class="mb-3 form-check">
                         <label class="form-check-label" for="conditions">J'accepte les conditions</label>
                         <input type="checkbox" class="form-check-input" id="conditions" name="conditions">
@@ -103,6 +104,8 @@
                             Merci de lire les conditions avant de valider le formulaire.
                         </div>
                     </div>
+                </div>
+                <div class="button col d-flex justify-content-center mt-5">
                     <button type="submit" name="submit" value="submit" id="submit" class="btn btn-dark w-25">Valider</button>
                 </div>
 
@@ -110,96 +113,25 @@
 
         </div>
 
-        <div class="right d-none d-lg-block">
+        <div class="right d-none d-md-flex">
             <img class="img-fluid" src="/assets/images/right.png" alt="right">
         </div>
     </div>
 
-    <!-- <footer class="footer d-flex justify-content-around align-items-center p-2 my-4">
-        <ul class="nav-list d-flex list-unstyled d-none d-lg-flex">
-            <li class="footer-item p-4">
-                <img src="/assets/images/footerleft.png" alt="footerleft">
+    <footer class="footer d-flex justify-content-around align-items-center">
+        <ul class="nav-list d-flex list-unstyled">
+            <li class="footer-item">
+                <img class="img-fluid" src="/assets/images/footerleft.png" alt="footerleft">
                 Hit the right audience with the right tools
             </li>
-            <li class="footer-item p-4">Customize templates and create unique campaigns</li>
-            <li class="footer-item p-4">Reach goals on every communication channel</li>
+            <li class="footer-item footer-item-middle">
+                <img class="img-fluid" src="/assets/images/footermiddle.png" alt="footerleft">
+                Customize templates and create unique campaigns
+            </li>
+            <li class="footer-item">
+            <img class="img-fluid" src="/assets/images/footerleft.png" alt="footerright">Reach goals on every communication channel</li>
         </ul>
-    </footer> -->
-
-  <!-- <div class="container d-flex flex-column min-vh-100 justify-content-center align-items-center">
-
-    <h1 class="col-6">Increase sales with email marketing</h1>
-
-    <form action="contact.php" method="POST" class="row g-3 needs-validation" id="lessonForm">
-        <div class="col-md-6">
-            <label for="firstname" class="form-label">Prénom</label>
-            <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Entrez votre prénom">
-            <div class="invalid-feedback">
-                Veuillez saisir votre prénom.
-            </div>
-        </div>
-        <div class="col-md-6">
-            <label for="lastname" class="form-label">Nom</label>
-            <input type="text" class="form-control" name="lastName" id="lastName">
-            <div class="invalid-feedback">
-                Veuillez saisir votre nom.
-            </div>
-        </div>
-        <div class="col-md-6">
-            <label for="email" class="form-label">E-mail</label>
-            <input type="email" class="form-control" name="email" id="email">
-            <div class="invalid-feedback">
-                Veuillez saisir votre e-mail.
-            </div>
-        </div>
-        <div class="col-md-6">
-            <label for="phoneNumber" class="form-label">Téléphone</label>
-            <input type="tel" class="form-control" name="phoneNumber" id="phoneNumber">
-            <div class="invalid-feedback">
-                Veuillez saisir votre numéro de téléphone.
-            </div>
-        </div>
-        <div class="col-md-6">
-            <label for="address" class="form-label">Adresse</label>
-            <input type="text" class="form-control" name="address" id="address">
-            <div class="invalid-feedback">
-                Veuillez saisir votre adresse.
-            </div>
-        </div>
-        <div class="col-md-6">
-            <label for="city" class="form-label">Ville</label>
-            <select class="form-select" name="city" id="city">
-                <option selected disabled value="">Choose a city ...</option>
-                <option>Paris</option>
-                <option>Lyon</option>
-                <option>Marseille</option>
-                <option>Lille</option>
-            </select>
-            <div class="invalid-feedback">
-                Veuillez choisir une ville.
-            </div>
-        </div>
-        <div class="col-md-6">
-            <label for="postcode" class="form-label">Code postal</label>
-            <input type="text" class="form-control" name="postCode" id="postCode">
-            <div class="invalid-feedback">
-                Veuillez saisir votre code postal.
-            </div>
-        </div>
-        <div class="col-12">
-            <div class="mb-3 form-check">
-                <label class="form-check-label" for="conditions">J'accepte les conditions</label>
-                <input type="checkbox" class="form-check-input" id="conditions" name="conditions">
-                <div class="invalid-feedback">
-                    Merci de lire les conditions avant de valider le formulaire.
-                </div>
-            </div>
-            <button type="submit" name="submit" value="submit" class="btn btn-primary w-25">Valider</button>
-        </div>
-
-    </form>
-
-</div> -->
+    </footer>
 
 <script src="assets/scriptbis.js"></script>
 </body>
