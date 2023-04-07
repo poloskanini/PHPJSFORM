@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Increase sales with email marketing</title>
+  <title>Dropplist | Increase sales with email marketing</title>
+  <link rel="icon" href="/assets/images/favicon.png">
   <!-- BootStrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- My CSS -->
@@ -26,11 +27,12 @@
             <li class="nav-item nav-item3 p-4">Solutions</li>
             <li class="nav-item nav-item4 p-4">Pricing</li>
         </ul>
-        <div class="sign-up nav-item">SIGN UP</div>
+        <div class="sign-up">SIGN UP</div>
     </nav>
+
     <div class="container d-flex justify-content-center align-items-center mt-5">
 
-        <div class="left w-75 d-none d-lg-block">
+        <div class="left d-none d-lg-block">
             <img class="img-fluid" src="/assets/images/left.png" alt="left">
         </div>
 
@@ -101,17 +103,28 @@
                             Merci de lire les conditions avant de valider le formulaire.
                         </div>
                     </div>
-                    <button type="submit" name="submit" value="submit" class="btn btn-dark w-25">Valider</button>
+                    <button type="submit" name="submit" value="submit" id="submit" class="btn btn-dark w-25">Valider</button>
                 </div>
 
             </form>
 
         </div>
 
-        <div class="right w-75 d-none d-lg-block">
+        <div class="right d-none d-lg-block">
             <img class="img-fluid" src="/assets/images/right.png" alt="right">
         </div>
     </div>
+
+    <!-- <footer class="footer d-flex justify-content-around align-items-center p-2 my-4">
+        <ul class="nav-list d-flex list-unstyled d-none d-lg-flex">
+            <li class="footer-item p-4">
+                <img src="/assets/images/footerleft.png" alt="footerleft">
+                Hit the right audience with the right tools
+            </li>
+            <li class="footer-item p-4">Customize templates and create unique campaigns</li>
+            <li class="footer-item p-4">Reach goals on every communication channel</li>
+        </ul>
+    </footer> -->
 
   <!-- <div class="container d-flex flex-column min-vh-100 justify-content-center align-items-center">
 
