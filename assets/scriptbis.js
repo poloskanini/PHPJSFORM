@@ -3,7 +3,7 @@
   'use strict'
 
   // Déclaration du formulaire
-  let form = document.getElementById('contactForm');
+  let form = document.getElementById('lessonForm');
 
   // Ecoute de l'action submit, et lancement de la fonction
   form.addEventListener('submit', function(event) {

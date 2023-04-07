@@ -36,7 +36,7 @@ if(!empty($_POST['firstName'])
               [
                   'From' => [
                       'Email' => "nicolasbarthes.lana@gmail.com",
-                      'Name' => "Me"
+                      'Name' => "Cyber Monday"
                   ],
                   'To' => [
                       [
@@ -68,9 +68,9 @@ if(!empty($_POST['firstName'])
       $response = $mj->post(Resources::$Email, ['body' => $body]);
       $response->success();
       
-      echo '<h2 style="text-align: center;">Envoyé avec succès !</h2>';
-
-      header("refresh:2;url=index.php" );
+      include 'emailsend.php';
+      
+      // header("refresh:2;url=emailsend.php" );
 
 
       } else {
