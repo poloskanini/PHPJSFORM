@@ -21,21 +21,21 @@
             <img src="/assets/images/logo.png" alt="logo">
         </div>
         <ul class="nav-list d-flex list-unstyled d-none d-lg-flex">
-            <li class="nav-item1 px-4">Platform</li>
-            <li class="nav-item2 px-4">Resources</li>
-            <li class="nav-item3 px-4">Solutions</li>
-            <li class="nav-item4 px-4">Pricing</li>
+            <li class="nav-item nav-item1 p-4">Platform</li>
+            <li class="nav-item nav-item2 p-4">Resources</li>
+            <li class="nav-item nav-item3 p-4">Solutions</li>
+            <li class="nav-item nav-item4 p-4">Pricing</li>
         </ul>
-        <div class="sign-up">SIGN UP</div>
+        <div class="sign-up nav-item">SIGN UP</div>
     </nav>
     <div class="container d-flex justify-content-center align-items-center mt-5">
 
-        <div class="left d-none d-lg-block">
+        <div class="left w-75 d-none d-lg-block">
             <img class="img-fluid" src="/assets/images/left.png" alt="left">
         </div>
 
         <div class="middle">
-            <h1 class="col-10 mx-auto">Increase sales with email marketing</h1>
+            <h1 class="m-3 mb-5">Increase sales with email marketing</h1>
 
             <form action="contact.php" method="POST" class="row g-3 needs-validation" id="lessonForm">
                 <div class="col-md-6">
@@ -108,7 +108,7 @@
 
         </div>
 
-        <div class="right d-none d-lg-block">
+        <div class="right w-75 d-none d-lg-block">
             <img class="img-fluid" src="/assets/images/right.png" alt="right">
         </div>
     </div>
