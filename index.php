@@ -17,7 +17,7 @@
 </head>
 <body>
 
-    <nav class="nav d-flex justify-content-around align-items-center p-2 my-4">
+    <nav class="nav d-flex justify-content-around align-items-center p-2">
         <div class="logo">
             <img src="/assets/images/logo.png" alt="logo">
         </div>
@@ -30,7 +30,7 @@
         <div class="sign-up">SIGN UP</div>
     </nav>
 
-    <div class="container d-md-flex justify-content-center align-items-center mt-5">
+    <div class="container d-md-flex justify-content-center align-items-center">
 
         <div class="left">
             <img class="img-fluid" src="/assets/images/left.png" alt="left">
@@ -118,18 +118,21 @@
         </div>
     </div>
 
-    <footer class="footer d-flex justify-content-around align-items-center">
+    <!-- Footer -->
+    <footer class="footer d-flex justify-content-around align-items-center d-none d-lg-flex">
         <ul class="nav-list d-flex list-unstyled">
-            <li class="footer-item">
+            <li class="footer-item d-flex justify-content-center align-items-center text-center">
                 <img class="img-fluid" src="/assets/images/footerleft.png" alt="footerleft">
-                Hit the right audience with the right tools
+                <small><p>Hit the right audience with the right tools</p></small>
             </li>
-            <li class="footer-item footer-item-middle">
+            <li class="footer-item footer-item-middle d-flex justify-content-center align-items-center text-center">
                 <img class="img-fluid" src="/assets/images/footermiddle.png" alt="footerleft">
-                Customize templates and create unique campaigns
+                <small><p>Customize templates and create unique campaigns</p></small>
             </li>
-            <li class="footer-item">
-            <img class="img-fluid" src="/assets/images/footerleft.png" alt="footerright">Reach goals on every communication channel</li>
+            <li class="footer-item d-flex justify-content-center align-items-center text-center">
+                <img class="img-fluid" src="/assets/images/footerleft.png" alt="footerright">
+                <small><p>Reach goals on every communication channel</p></small>
+            </li>
         </ul>
     </footer>
 

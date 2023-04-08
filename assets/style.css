@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #F5F3EE;
+  /* box-shadow: 0 0 0 3px red inset; */
 }
 
 body {
@@ -19,6 +20,7 @@ select {
 
 iframe {
   height: 20rem;
+  transition: all 1s ease-in-out;
 }
 
 h1 {
@@ -93,7 +95,7 @@ footer ul {
 }
 
 .footer-item {
-  padding: 0 3rem;
+  padding: 0 1rem;
 }
 
 .footer-item-middle {
