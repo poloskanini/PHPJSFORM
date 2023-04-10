@@ -1,3 +1,8 @@
+<?php
+// Connexion BDD
+include 'functions.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

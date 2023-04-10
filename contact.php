@@ -2,6 +2,9 @@
 
 require 'vendor/autoload.php';
 
+// Connexion BDD
+include 'functions.php';
+
 use Mailjet\Client;
 use \Mailjet\Resources;
 
@@ -29,6 +32,8 @@ if(!empty($_POST['firstName'])
       $city = htmlspecialchars($_POST['city']);
       $postCode = htmlspecialchars($_POST['postCode']);
       $conditions = htmlspecialchars($_POST['conditions']);
+      $today = date_create()->format('Y-m-d H:i:s');
+
 
       if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $body = [
@@ -64,14 +69,14 @@ if(!empty($_POST['firstName'])
               ]
           ]
       ];
-      
+
+      // Ajout de l'utilisateur en BDD
+      include 'addUser.php';
+
+      // Envoi de l'email
       $response = $mj->post(Resources::$Email, ['body' => $body]);
       $response->success();
-      
       include 'emailsend.php';
-      
-      // header("refresh:2;url=emailsend.php" );
-
 
       } else {
         header('Location:index.php');
