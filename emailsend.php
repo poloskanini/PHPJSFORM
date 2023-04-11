@@ -12,8 +12,8 @@
 </head>
 <body>
   
-  <div class="container mt-5 text-center d-flex flex-column justify-content-center">
-      <iframe src="https://embed.lottiefiles.com/animation/95248" class="border-none"></iframe>
+  <div class="container lottie-container mt-5 text-center d-flex flex-column justify-content-center">
+      <iframe class="lottie-player" src="https://embed.lottiefiles.com/animation/95248" class="border-none"></iframe>
       <h2>Mail envoyé !</h2> <br>
       <p> Merci, votre mail a été correctement envoyé !<br><br></p>
       <a href="index.php">Retour au formulaire</a>
