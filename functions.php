@@ -4,8 +4,7 @@
 // Renseignez ici les informations de votre BDD
 
 // Pour un déploiement Heroku, rdv dans Settings/Reveal Config Vars/ copier coller l'adresse mysql contenant toutes les infos
-// Ex : mysql://bf61bcf48e529d:d14b5f42@us-cdbr-east-06.cleardb.net/heroku_ed494a7436c047c?reconnect=true
-// Ci dessous, les infos utilisées dans $user, $pass, host
+// Ci dessous, les infos utilisées dans $user, $pass, host de l'adresse mysql
 
 $user = 'bf61bcf48e529d';
 $pass = 'd14b5f42';
