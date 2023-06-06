@@ -7,16 +7,16 @@
 // Rdv dans Settings/Reveal Config Vars/ copier coller l'adresse mysql contenant toutes les infos
 // Ci dessous, les infos utilisées dans $user, $pass, host de l'adresse mysql
 
-$user = 'bf61bcf48e529d';
-$pass = 'd14b5f42';
-$host = 'us-cdbr-east-06.cleardb.net';
-$dbname = 'heroku_ed494a7436c047c';
+// $user = 'bf61bcf48e529d';
+// $pass = 'd14b5f42';
+// $host = 'us-cdbr-east-06.cleardb.net';
+// $dbname = 'heroku_ed494a7436c047c';
 
 //* Pour HOSTINGER
-// $user = 'u897180116_bf61bcf48e529d';
-// $pass = 'Nicowan23$dropplist';
-// $host = 'localhost';
-// $dbname = 'u897180116_dropplistDB';
+$user = 'u897180116_bf61bcf48e529d';
+$pass = 'Nicowan23$dropplist';
+$host = 'localhost';
+$dbname = 'u897180116_dropplistDB';
 
 try
 {

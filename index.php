@@ -9,7 +9,7 @@ include 'functions.php';
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dropplist | Increase sales with email marketing</title>
+  <title>Dropplist | Votre solution de Kit Emailing</title>
   <link rel="icon" href="/assets/images/favicon.png">
   <meta name="description" content="Augmentez vos ventes avec l'email marketing ! Kit mailing clé en main avec insertion des datas en BDD">
   <!-- Robots -->
@@ -37,12 +37,12 @@ include 'functions.php';
             <img src="/assets/images/logo.png" alt="logo">
         </div>
         <ul class="nav-list d-flex list-unstyled d-none d-lg-flex">
-            <li class="nav-item nav-item1 p-4">Platform</li>
+            <li class="nav-item nav-item1 p-4">Plateforme</li>
             <li class="nav-item nav-item2 p-4">Resources</li>
             <li class="nav-item nav-item3 p-4">Solutions</li>
-            <li class="nav-item nav-item4 p-4">Pricing</li>
+            <li class="nav-item nav-item4 p-4">Tarifs</li>
         </ul>
-        <div class="sign-up">SIGN UP</div>
+        <div class="sign-up">Se connecter</div>
     </nav>
 
     <div class="container d-md-flex justify-content-center align-items-center">
@@ -52,8 +52,8 @@ include 'functions.php';
         </div>
 
         <div class="middle">
-            <h1 class="middle-title m-3 mb-5">Increase sales with email marketing</h1>
-            <p class="middle-subtitle m-3 mb-5">Automate email marketing campaigns and make them look awesome for your clients.</p>
+            <h1 class="middle-title m-3 mb-5">Augmentez vos ventes avec les kits e-mailing</h1>
+            <p class="middle-subtitle m-3 mb-5">Automatisez les campagnes de marketing par e-mail et rendez-les attrayantes pour vos clients avec la réception d'un template. À vous d'essayer !</p>
 
             <form action="contact.php" method="POST" class="row g-3 needs-validation" id="lessonForm">
                 <div class="col-md-6">
@@ -138,15 +138,15 @@ include 'functions.php';
         <ul class="nav-list d-flex list-unstyled">
             <li class="footer-item d-flex justify-content-center align-items-center text-center">
                 <img class="img-fluid" src="/assets/images/footerleft.png" alt="footerleft">
-                <small><p>Hit the right audience with the right tools</p></small>
+                <small><p>Touchez le bon public avec les bons outils</p></small>
             </li>
             <li class="footer-item footer-item-middle d-flex justify-content-center align-items-center text-center">
                 <img class="img-fluid" src="/assets/images/footermiddle.png" alt="footerleft">
-                <small><p>Customize templates and create unique campaigns</p></small>
+                <small><p>Personnalisez les modèles et créez des campagnes uniques</p></small>
             </li>
             <li class="footer-item d-flex justify-content-center align-items-center text-center">
                 <img class="img-fluid" src="/assets/images/footerleft.png" alt="footerright">
-                <small><p>Reach goals on every communication channel</p></small>
+                <small><p>Atteignez vos objectifs sur tous les canaux de communication</p></small>
             </li>
         </ul>
     </footer>
