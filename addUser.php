@@ -2,7 +2,7 @@
 
 
 // Ajout de l'utilisateur en BDD
-$sql = "INSERT INTO user (firstName, lastName, email, phoneNumber, address, city, postCode, createdAt) VALUES (:firstName, :lastName, :email, :phoneNumber, :address, :city, :postCode, :createdAt)";
+$sql = "INSERT INTO user (firstName, lastName, email, phoneNumber, address, city, postCode) VALUES (:firstName, :lastName, :email, :phoneNumber, :address, :city, :postCode)";
 
 $statement = $db->prepare($sql);
 
@@ -13,8 +13,7 @@ $statement->execute([
   'phoneNumber' => $phoneNumber,
   'address' => $address,
   'city' => $city,
-  'postCode' => $postCode,
-  'createdAt' => $today
+  'postCode' => $postCode
 ]);
 
 ?>
