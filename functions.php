@@ -1,15 +1,22 @@
 <?php 
 
 // Connexion à la BDD
-// Renseignez ici les informations de votre BDD
+// Renseignez ci dessous les informations de votre BDD
 
-// Pour un déploiement Heroku, rdv dans Settings/Reveal Config Vars/ copier coller l'adresse mysql contenant toutes les infos
+//* Pour un déploiement Heroku, créez un addOn "ClearDB MySQL".
+// Rdv dans Settings/Reveal Config Vars/ copier coller l'adresse mysql contenant toutes les infos
 // Ci dessous, les infos utilisées dans $user, $pass, host de l'adresse mysql
 
 $user = 'bf61bcf48e529d';
 $pass = 'd14b5f42';
 $host = 'us-cdbr-east-06.cleardb.net';
 $dbname = 'heroku_ed494a7436c047c';
+
+//* Pour HOSTINGER
+// $user = 'u897180116_bf61bcf48e529d';
+// $pass = 'Nicowan23$dropplist';
+// $host = 'localhost';
+// $dbname = 'u897180116_dropplistDB';
 
 try
 {

@@ -1,5 +1,6 @@
 <?php 
 
+
 // Ajout de l'utilisateur en BDD
 $sql = "INSERT INTO user (firstName, lastName, email, phoneNumber, address, city, postCode, createdAt) VALUES (:firstName, :lastName, :email, :phoneNumber, :address, :city, :postCode, :createdAt)";
 
